@@ -7,6 +7,7 @@ import time
 s = Screen()
 s.setup(width=600, height=600)
 s.bgcolor("white")
+s.title("Turtle Crossing")
 s.tracer(0)
 s.listen()
 p = Player()
